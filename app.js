@@ -25,8 +25,8 @@ forma.addEventListener("submit" , e=>{
 
 
 async function requestApi(url) {
-    // loader.classList.remove('none')
     try {
+        // loader.classList.remove('none')
         const req = await fetch(url)
 
         if (!req.ok) {
