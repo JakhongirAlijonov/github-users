@@ -1,0 +1,153 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color: #222731;
+    font-size: 26px;
+    font-family: Space Mono;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ body.night .logo a{
+    color: #fff ;
+}
+
+.none{
+    display: none;
+}
+
+
+form{
+    width: 730px;
+    padding: 22px;
+    border-radius: 15px;
+background: #FEFEFE;
+box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+margin-bottom: 50px;
+width: 100%;
+margin-top: 35px;
+}
+
+input{
+    width: 500px;
+    border: none;
+    background-color: transparent;
+}
+
+body.night form{
+    background-color: #1E2A47 ;
+}
+
+button{
+    border-radius: 10px;
+background: #0079FF;width: 106px;
+height: 50px;
+flex-shrink: 0;
+border: none;
+outline: none;
+color: #fff;
+}
+
+.warn {
+    color: red;          
+
+}
+
+.main-wrapper{
+    border-radius: 15px;
+background: #FEFEFE;
+box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+padding: 52px 48px;
+}
+
+body.night .main-wrapper{
+    background-color: #1E2A47;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    flex-direction: row;
+}
+body.night .card{
+    background-color: transparent;
+    color: #fff !important;
+}
+.card img{
+    border-radius: 50%;
+}
+
+.loc {
+    margin-top: 40px;
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(450px , 1fr));
+    grid-gap: 20px;
+}
+#bio{
+    text-align: center;
+    color: #4B6A9B;
+font-size: 15px;
+font-family: "Space Mono";
+line-height: 25px;
+margin-top: 20px;
+}
+
+main{
+    margin-bottom: 100px;
+}
+body{
+    transition: 0.3s ease;
+}
+body.night{
+    background-color:  #141D2F;;
+   color: #fff; 
+}
+.foolowers{
+    border-radius: 10px;
+    background: #F6F8FF;
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ body.night  .foolowers{
+background: #141D2F;
+color: #fff !important;
+}
+
+.foolowers p{
+    color: #4B6A9B;
+font-size: 13px;
+font-family: Space Mono;
+}
+
+#mode{
+    cursor: pointer;
+}
+
+body.night #bio{
+    color: #fff !important;
+}
+
+
+.night{
+    background-color:  #141D2F;;
+
+}
